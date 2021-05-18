@@ -11,9 +11,9 @@
 
 struct node
 {
-    int code;
-    int val;
-    int balance;
+    int code;    //serial code of product
+    int val;     //rate of the product
+    int balance; //height balance variable
     node *left;
     node *right;
     std::string item;
@@ -24,7 +24,7 @@ struct node
     //  ------------------------------------------
 };
 
-//recursive function to search for data
+//recursive function to search for data (product code in this case)
 node *search(node *ptr, int data)
 {
     if (ptr != NULL)
@@ -164,7 +164,6 @@ node *insert(std::string name, int code, int data, node *ptr, bool *ht_inc)
 
 void display(node *ptr, int level)
 {
-    //int i;
     if (ptr != NULL)
     {
         display(ptr->right, level + 1);
@@ -177,6 +176,7 @@ void display(node *ptr, int level)
     }
 }
 
+//function to print
 void inorder(node *ptr)
 {
     if (ptr != NULL)
