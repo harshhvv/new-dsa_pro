@@ -1,8 +1,12 @@
 //avl tree project
 //self balancing tree for a grocery store with items and rates
-///self balancing tree for employee name and his/her salary.
 //searching by price i suppose
 //sorts salaries according to bst
+
+// NAME: Harsh Vardhan
+// REGISTARTION NUMBER: 20BCE2266
+// CSE-2011
+
 #include <iostream>
 
 struct node
@@ -13,11 +17,11 @@ struct node
     node *left;
     node *right;
     std::string item;
-    //  -----------------------------------
-    //  |         |      |      |         |
-    //  | pointer | item | rate | pointer |
-    //  |         |      |      |         |
-    //  -----------------------------------
+    //  __________________________________________
+    //  |         |      |      |      |         |
+    //  | pointer | item | rate | code | pointer |
+    //  |         |      |      |      |         |
+    //  ------------------------------------------
 };
 
 //recursive function to search for data
