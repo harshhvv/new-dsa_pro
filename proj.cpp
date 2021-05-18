@@ -178,6 +178,7 @@ void inorder(node *ptr)
     if (ptr != NULL)
     {
         inorder(ptr->left);
+        std::cout << "  ";
         std::cout << "Item: " << ptr->item << ", Rate: " << ptr->val << ", Code: " << ptr->code << std::endl;
         inorder(ptr->right);
     }
@@ -194,11 +195,13 @@ int main()
     root = NULL;
     while (true)
     {
+        std::cout << std::endl;
         std::cout << "1. Insert\n";
         std::cout << "2. Display\n";
         std::cout << "3. Quit\n";
         std::cout << "Enter your option pls: ";
         std::cin >> option;
+        std::cout << std::endl;
         switch (option)
         {
         case 1:
@@ -219,14 +222,15 @@ int main()
         case 2:
             if (root == NULL)
             {
-                std::cout << "Tree is empty hello \n";
+                std::cout << "No items at the moment. Sorry \n";
                 continue;
             }
-            std::cout << "tree is: \n";
+            std::cout << "Items filtered from high to low are:: \n";
             display(root, 1);
             std::cout << "\n\n";
             //std::cout << "inorder traversal is as dollows: \n";
-            std::cout << "Items filtered from low to high are: \n" inorder(root);
+            std::cout << "Items filtered from low to high are:\n";
+            inorder(root);
             std::cout << "\n";
             break;
 
