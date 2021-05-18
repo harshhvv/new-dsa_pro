@@ -16,7 +16,7 @@ struct node
     int balance; //height balance variable
     node *left;
     node *right;
-    std::string item;
+    std::string item; //name of the item
     //  __________________________________________
     //  |         |      |      |      |         |
     //  | pointer | item | rate | code | pointer |
