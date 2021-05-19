@@ -8,6 +8,7 @@
 // CSE-2011
 
 #include <iostream>
+#include <string>
 
 struct node
 {
@@ -210,6 +211,7 @@ int main()
         {
         case 1:
             std::cout << "Enter name of new item: ";
+            //getline(std::cin, name);
             std::cin >> name;
             std::cout << "enter rate of " << name << ": ";
             std::cin >> data;
