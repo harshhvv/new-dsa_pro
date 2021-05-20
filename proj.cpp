@@ -11,10 +11,8 @@
 // REGISTARTION NUMBER: 20BCE0787
 
 // CSE-2011
-
 #include <iostream>
 #include <string>
-
 struct node
 {
     int code;         //serial code of product
@@ -185,7 +183,7 @@ void display(node *ptr, int level)
         std::cout << std::endl;
         for (int i = 0; i < level; i++)
             std::cout << " ";
-        std::cout << "Item: " << ptr->item << ", Rate: " << ptr->val << ", Code: " << ptr->code << std::endl;
+        std::cout << "Item: " << ptr->item << ", Rate: Rs" << ptr->val << " , Code: " << ptr->code << std::endl;
         std::cout << " ";
         display(ptr->left, level + 1);
     }
@@ -198,7 +196,7 @@ void inorder(node *ptr)
     {
         inorder(ptr->left);
         std::cout << "  ";
-        std::cout << "Item: " << ptr->item << ", Rate: " << ptr->val << ", Code: " << ptr->code << std::endl;
+        std::cout << "Item: " << ptr->item << ", Rate: Rs" << ptr->val << " , Code: " << ptr->code << std::endl;
         inorder(ptr->right);
     }
 }
