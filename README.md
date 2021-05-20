@@ -2,7 +2,7 @@
 ### Contributed by:
 - [Harsh Vardhan](https://github.com/harshhvv) - 20BCE2266
 - [Anoushka Shresth](https://github.com/anoushka22) - 20BCE2305
--  Ekjot Singh Panesar - 20BCE0787
+-  [Ekjot Singh Panesar](https://github.com/Ekjot07) - 20BCE0787
 
 ### To use:
 - Clone the repository onto your machine
