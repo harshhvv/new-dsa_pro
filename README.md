@@ -1,4 +1,4 @@
-# new-dsa_pro
+# DSA Digital Assignment using AVL Tree
 ### Contributed by:
 - [Harsh Vardhan](https://github.com/harshhvv) - 20BCE2266
 - [Anoushka Shresth](https://github.com/anoushka22) - 20BCE2305
