@@ -3,6 +3,13 @@
 
 // NAME: Harsh Vardhan
 // REGISTARTION NUMBER: 20BCE2266
+
+// NAME: Anoushka Shresth
+// REGISTARTION NUMBER: 20BCE2305
+
+// NAME: Ekjot Singh Panesar
+// REGISTARTION NUMBER: 20BCE0787
+
 // CSE-2011
 
 #include <iostream>
@@ -44,6 +51,7 @@ node *insert(std::string name, int code, int data, node *ptr, bool *ht_inc)
     //two temporary variables
     node *aptr;
     node *bptr;
+
     if (ptr == NULL)
     {
         ptr = new node;
@@ -250,10 +258,12 @@ int main()
             break;
 
         case 3: //exiting from program
-            exit(1);
+            std::cout << "Thank you! :)";
+            exit(0);
 
         default:
             std::cout << "Please enter a valid option\n\n";
         }
     }
+    return 0;
 }
