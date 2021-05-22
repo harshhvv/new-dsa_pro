@@ -7,3 +7,12 @@
 ### To use:
 - Clone the repository onto your machine
 - Simply compile and run .cpp file
+
+### Contributions:
+- Report:  Anoushka Shresth, Harsh Vardhan
+- Idea: Harsh Vardhan
+- Video: Ekjot Singh Panesar 
+- Code:
+  - Insert, struct: Harsh Vardhan
+  - Display, inorder: Anoushka Shresth
+  - Search, main: Ekjot Singh Panesar 
